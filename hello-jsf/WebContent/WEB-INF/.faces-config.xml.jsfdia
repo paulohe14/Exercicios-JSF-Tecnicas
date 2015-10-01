@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:home.xhtml" PATH="home.xhtml"
+  SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:home.xhtml:0" NAME="item" PATH="home.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::echo.xhtml" NAME="output"
+    PATH="echo.xhtml" TARGET="rules:echo.xhtml" TITLE="success" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="fail::home.xhtml" NAME="output1"
+    PATH="home.xhtml" TARGET="rules:home.xhtml" TITLE="fail" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:echo.xhtml" PATH="echo.xhtml"
+  SHAPE="256,33,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>

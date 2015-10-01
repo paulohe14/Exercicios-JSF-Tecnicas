@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/hello-jsf/WebContent/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="hello-jsf"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/1524946/Documents/Workspace/libraries/JSF 2.2 (Mojarra 2.2.0)/mojarra-2.2.0-FCS/lib/javax.faces.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/meta-inf/html_basic.tld" project="hello-jsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/meta-inf/jsf_core.tld" project="hello-jsf"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/meta-inf/mojarra_ext.taglib.xml" project="hello-jsf"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces.jar/meta-inf/mojarra_ext.tld" project="hello-jsf"/>
+    </library>
+   </libraries>
+  </path>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="26" name="%0" offset="638" path="%1"/>
+   <linked-el length="26" name="%0" offset="500" path="%1"/>
+   <linked-el length="24" name="%0" offset="772" path="%1"/>
+   <linked-el length="26" name="%2" offset="521" path="%3"/>
+   <linked-el length="19" name="%2" offset="416" path="%3"/>
+   <linked-el length="26" name="%4" offset="638" path="%1"/>
+   <linked-el length="26" name="%4" offset="500" path="%1"/>
+   <linked-el length="24" name="%4" offset="772" path="%1"/>
+   <linked-el length="22" name="%5" offset="549" path="%6"/>
+   <linked-el length="25" name="%5" offset="492" path="%6"/>
+   <linked-el length="25" name="%5" offset="441" path="%6"/>
+   <linked-el length="22" name="%7" offset="448" path="%8"/>
+   <linked-el length="22" name="%7" offset="367" path="%9"/>
+   <linked-el length="19" name="%7" offset="504" path="%8"/>
+   <linked-el length="22" name="%10" offset="448" path="%8"/>
+   <linked-el length="22" name="%10" offset="367" path="%9"/>
+   <linked-el length="19" name="%10" offset="504" path="%8"/>
+   <linked-el length="22" name="%11" offset="549" path="%6"/>
+   <linked-el length="25" name="%11" offset="492" path="%6"/>
+   <linked-el length="25" name="%11" offset="441" path="%6"/>
+   <linked-el length="26" name="%12" offset="521" path="%3"/>
+   <linked-el length="19" name="%12" offset="416" path="%3"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/UsuarioBean.java" value="%0"/>
+  <alias path="/hello-jsf/WebContent/usuario.xhtml" value="%1"/>
+  <alias path="palpiteBean" value="%5"/>
+  <alias path="echoBean" value="%7"/>
+  <alias path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/EchoBean.java" value="%10"/>
+  <alias path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/PalpiteBean.java" value="%11"/>
+  <alias path="helloBean" value="%12"/>
+  <alias path="/hello-jsf/WebContent/Hello.xhtml" value="%3"/>
+  <alias path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/HelloBean.java" value="%2"/>
+  <alias path="/hello-jsf/WebContent/home.xhtml" value="%8"/>
+  <alias path="usuarioBean" value="%4"/>
+  <alias path="/hello-jsf/WebContent/echo.xhtml" value="%9"/>
+  <alias path="/hello-jsf/WebContent/Palpite.xhtml" value="%6"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

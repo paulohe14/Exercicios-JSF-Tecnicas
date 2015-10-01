@@ -1,0 +1,30 @@
+package br.edu.fa7.tecnicas.jsf;
+
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean
+public class EchoBean {
+
+	private String message;
+	
+	public String getMessage() {
+		return message;
+	}
+	
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	
+	public String doIt() {
+		String next = "fail";
+		
+		int n = (int) (Math.random() * 10);
+		
+		
+		if(n % 2 == 0) {
+			next ="success";
+		}
+		
+		return next;
+	}
+}
