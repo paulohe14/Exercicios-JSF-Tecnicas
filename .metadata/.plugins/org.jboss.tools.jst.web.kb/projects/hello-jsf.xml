@@ -36,44 +36,69 @@
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.jsf.core"/>
   <el>
-   <linked-el length="26" name="%0" offset="638" path="%1"/>
-   <linked-el length="26" name="%0" offset="500" path="%1"/>
-   <linked-el length="24" name="%0" offset="772" path="%1"/>
-   <linked-el length="26" name="%2" offset="521" path="%3"/>
-   <linked-el length="19" name="%2" offset="416" path="%3"/>
-   <linked-el length="26" name="%4" offset="638" path="%1"/>
-   <linked-el length="26" name="%4" offset="500" path="%1"/>
-   <linked-el length="24" name="%4" offset="772" path="%1"/>
-   <linked-el length="22" name="%5" offset="549" path="%6"/>
-   <linked-el length="25" name="%5" offset="492" path="%6"/>
-   <linked-el length="25" name="%5" offset="441" path="%6"/>
-   <linked-el length="22" name="%7" offset="448" path="%8"/>
-   <linked-el length="22" name="%7" offset="367" path="%9"/>
-   <linked-el length="19" name="%7" offset="504" path="%8"/>
-   <linked-el length="22" name="%10" offset="448" path="%8"/>
-   <linked-el length="22" name="%10" offset="367" path="%9"/>
-   <linked-el length="19" name="%10" offset="504" path="%8"/>
-   <linked-el length="22" name="%11" offset="549" path="%6"/>
-   <linked-el length="25" name="%11" offset="492" path="%6"/>
-   <linked-el length="25" name="%11" offset="441" path="%6"/>
-   <linked-el length="26" name="%12" offset="521" path="%3"/>
-   <linked-el length="19" name="%12" offset="416" path="%3"/>
+   <linked-el length="25" name="%0" offset="382" path="%1"/>
+   <linked-el length="28" name="%0" offset="877" path="%1"/>
+   <linked-el length="23" name="%0" offset="711" path="%1"/>
+   <linked-el length="29" name="%0" offset="743" path="%1"/>
+   <linked-el length="19" name="%0" offset="1044" path="%1"/>
+   <linked-el length="40" name="%0" offset="432" path="%1"/>
+   <linked-el length="29" name="%0" offset="914" path="%1"/>
+   <linked-el length="22" name="%2" offset="448" path="%3"/>
+   <linked-el length="22" name="%2" offset="367" path="%4"/>
+   <linked-el length="19" name="%2" offset="504" path="%3"/>
+   <linked-el length="25" name="%5" offset="382" path="%1"/>
+   <linked-el length="29" name="%5" offset="743" path="%1"/>
+   <linked-el length="40" name="%5" offset="432" path="%1"/>
+   <linked-el length="29" name="%5" offset="914" path="%1"/>
+   <linked-el length="26" name="%6" offset="638" path="%7"/>
+   <linked-el length="26" name="%6" offset="500" path="%7"/>
+   <linked-el length="24" name="%6" offset="772" path="%7"/>
+   <linked-el length="26" name="%8" offset="638" path="%7"/>
+   <linked-el length="26" name="%8" offset="500" path="%7"/>
+   <linked-el length="24" name="%8" offset="772" path="%7"/>
+   <linked-el length="25" name="%9" offset="387" path="%10"/>
+   <linked-el length="27" name="%9" offset="593" path="%10"/>
+   <linked-el length="27" name="%9" offset="667" path="%10"/>
+   <linked-el length="25" name="%9" offset="520" path="%10"/>
+   <linked-el length="22" name="%11" offset="448" path="%3"/>
+   <linked-el length="22" name="%11" offset="367" path="%4"/>
+   <linked-el length="19" name="%11" offset="504" path="%3"/>
+   <linked-el length="28" name="%12" offset="877" path="%1"/>
+   <linked-el length="23" name="%12" offset="711" path="%1"/>
+   <linked-el length="19" name="%12" offset="1044" path="%1"/>
+   <linked-el length="26" name="%13" offset="521" path="%14"/>
+   <linked-el length="19" name="%13" offset="416" path="%14"/>
+   <linked-el length="26" name="%15" offset="521" path="%14"/>
+   <linked-el length="19" name="%15" offset="416" path="%14"/>
+   <linked-el length="25" name="%16" offset="387" path="%10"/>
+   <linked-el length="27" name="%16" offset="593" path="%10"/>
+   <linked-el length="27" name="%16" offset="667" path="%10"/>
+   <linked-el length="25" name="%16" offset="520" path="%10"/>
   </el>
  </validation>
  <aliases>
-  <alias path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/UsuarioBean.java" value="%0"/>
-  <alias path="/hello-jsf/WebContent/usuario.xhtml" value="%1"/>
-  <alias path="palpiteBean" value="%5"/>
-  <alias path="echoBean" value="%7"/>
-  <alias path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/EchoBean.java" value="%10"/>
-  <alias path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/PalpiteBean.java" value="%11"/>
-  <alias path="helloBean" value="%12"/>
-  <alias path="/hello-jsf/WebContent/Hello.xhtml" value="%3"/>
-  <alias path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/HelloBean.java" value="%2"/>
-  <alias path="/hello-jsf/WebContent/home.xhtml" value="%8"/>
-  <alias path="usuarioBean" value="%4"/>
-  <alias path="/hello-jsf/WebContent/echo.xhtml" value="%9"/>
-  <alias path="/hello-jsf/WebContent/Palpite.xhtml" value="%6"/>
+  <alias path="produtoBean" value="%0"/>
+  <alias path="/hello-jsf/WebContent/usuario.xhtml" value="%7"/>
+  <alias
+   path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/bean/EchoBean.java" value="%2"/>
+  <alias
+   path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/bean/ProdutoBean.java" value="%5"/>
+  <alias path="palpiteBean" value="%9"/>
+  <alias path="echoBean" value="%11"/>
+  <alias path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/bean/Produto.java" value="%12"/>
+  <alias
+   path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/bean/HelloBean.java" value="%13"/>
+  <alias path="helloBean" value="%15"/>
+  <alias path="/hello-jsf/WebContent/Hello.xhtml" value="%14"/>
+  <alias path="/hello-jsf/WebContent/produtos.xhtml" value="%1"/>
+  <alias path="/hello-jsf/WebContent/home.xhtml" value="%3"/>
+  <alias
+   path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/bean/UsuarioBean.java" value="%6"/>
+  <alias path="/hello-jsf/WebContent/echo.xhtml" value="%4"/>
+  <alias path="usuarioBean" value="%8"/>
+  <alias
+   path="/hello-jsf/src/br/edu/fa7/tecnicas/jsf/bean/PalpiteBean.java" value="%16"/>
+  <alias path="/hello-jsf/WebContent/Palpite.xhtml" value="%10"/>
  </aliases>
  <includes/>
  <uris>

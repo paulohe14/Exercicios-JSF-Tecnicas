@@ -7,13 +7,19 @@
 <h:head></h:head> 
 <body> 
 
-<h:outputLabel for="palpite">Palpite(0-100): </h:outputLabel>
-<h:inputText id="palpite" value="#{palpiteBean.palpite}" />
-
-<h:outputText value="#{palpiteBean.message}" />
-
-
-<h:commandButton action="#{palpiteBean.doIt}" value="Send" />
+	<h:form>
+		<p>
+			<h:outputText value="#{palpiteBean.message}" />
+		</p>		
+		<p>
+			<h:outputLabel for="palpite" value="Palpite" />
+			<h:inputText id="palpite" value="#{palpiteBean.palpite}" />
+		</p>		
+		<p>
+			<h:commandButton action="#{palpiteBean.apostar()}" value="Apostar" />
+			<h:commandButton action="#{palpiteBean.iniciar()}" value="Iniciar" />
+		</p>
+	</h:form>
 
 </body> 
 </html>

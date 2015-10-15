@@ -1,0 +1,40 @@
+package br.edu.fa7.tecnicas.jsf.entity;
+
+public class CartaoCredito {
+	
+	String bandeira;
+	Integer numeroCartao;
+	String codigoSeguranca;
+	
+	public CartaoCredito() {}
+	
+	public CartaoCredito( String bandeira, Integer numeroCartao , String codigoSeguranca ) {
+		this.bandeira = bandeira;
+		this.numeroCartao = numeroCartao;
+		this.codigoSeguranca = codigoSeguranca;
+	}
+	
+	public String getBandeira() {
+		return bandeira;
+	}
+	
+	public void setBandeira(String bandeira) {
+		this.bandeira = bandeira;
+	}
+	
+	public Integer getNumeroCartao() {
+		return numeroCartao;
+	}
+	
+	public void setNumeroCartao(Integer numeroCartao) {
+		this.numeroCartao = numeroCartao;
+	}
+	
+	public String getCodigoSeguranca() {
+		return codigoSeguranca;
+	}
+	
+	public void setCodigoSeguranca(String codigoSeguranca) {
+		this.codigoSeguranca = codigoSeguranca;
+	}
+}

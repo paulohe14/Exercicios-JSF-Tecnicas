@@ -1,0 +1,18 @@
+package br.edu.fa7.tecnicas.jsf.bean;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean
+public class ProdutoBean {
+	
+	public List<Produto> getProdutosDisponiveis(){
+		List<Produto> result = new ArrayList<Produto>();
+		
+		result.add(new Produto("Pincel", "Material Escolar", 5.9));
+		result.add(new Produto("Pincel", "Material Escolar", 5.9));
+		result.add(new Produto("Pincel", "Material Escolar", 5.9));
+	}
+}

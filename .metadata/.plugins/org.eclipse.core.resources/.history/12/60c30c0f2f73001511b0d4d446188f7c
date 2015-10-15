@@ -1,0 +1,5 @@
+package br.edu.fa7.tecnicas.jsf.bean;
+
+public class ProdutoBean {
+
+}
